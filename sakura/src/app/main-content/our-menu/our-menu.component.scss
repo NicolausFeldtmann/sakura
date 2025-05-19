@@ -1,0 +1,70 @@
+.menuH2{
+    color: #9F0908;
+    font-weight: bold;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 120px 0px 64px 0px;
+}
+
+.menu-sheet{
+    background-image: url('./../../../assets/img/1_hero/JPG/menu.jpg');
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px 120px 0px;
+    .menu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .ramen{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+.ramen-cell{
+    color: #675E54;
+    display: flex;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 0px 0px 56px 0px;
+    margin: 0px 380px 0px 120px;
+    .menu-img{
+        width: 352px;
+        height: 352px;
+        padding: 0px 80px 0px 0px;
+    }
+}
+
+.ramen-cell-2{
+    color: #675E54;
+    display: flex;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 0px 0px 56px 0px;
+    margin: 0px 120px 0px 380px;
+    .menu-img{
+        width: 352px;
+        height: 352px;
+        padding: 0px 0px 0px 80px;
+    }
+}
+
+table{
+    .ramen{
+        color: black;
+        font-size: 56px;
+        padding: 0px 0px 16px 0px;
+    }
+}
+

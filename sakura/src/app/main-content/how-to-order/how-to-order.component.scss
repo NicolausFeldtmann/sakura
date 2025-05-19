@@ -1,0 +1,34 @@
+*{
+    display: flex;
+    justify-content: center;
+}
+
+.oder-h2{
+    color: #9F0908;
+    font-weight: bold; 
+    font-size: 80px;
+    display: flex;
+    margin: 120px 0px 64px 0px;
+}
+
+.order-step-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 0px 120px 0px;
+    .order-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .order-img{
+            width: 128px;
+            padding: 0px 0px 16px 0px;
+        }
+        .noodle{
+            font-weight: bold;
+            font-size: 56px;
+            text-align: center;
+        }
+    }
+}

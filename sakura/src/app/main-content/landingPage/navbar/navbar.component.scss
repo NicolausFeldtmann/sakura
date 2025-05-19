@@ -1,0 +1,46 @@
+nav {
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .sakuraLogo{
+        width: 48px;
+        height: 48px;
+    }
+    .linkArea{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        .phone{
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+            background-color: rgb(175, 0, 0);
+            border: 5px solid white;
+            border-radius: 15px;
+            padding-inline: 8px;
+            .phoneImg{
+                width: 48px;
+                height: 48px;
+            }
+            &:hover{
+                background-color: #e70c0c;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    margin: 0px 12px 0px 12px;
+}
