@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
-import { LandingPageComponent } from './landingPage/landingPage.component';
-import { HowToOrderComponent } from './how-to-order/how-to-order.component';
-import { OurMenuComponent } from './our-menu/our-menu.component';
+import { LandingPageComponent } from '../landingPage/landingPage.component';
+import { HowToOrderComponent } from '../how-to-order/how-to-order.component';
+import { OurMenuComponent } from '../our-menu/our-menu.component';
+
+
 
 @Component({
   selector: 'app-main-content',
@@ -9,7 +11,7 @@ import { OurMenuComponent } from './our-menu/our-menu.component';
   imports: [
     LandingPageComponent,
     HowToOrderComponent,
-    OurMenuComponent
+    OurMenuComponent,
   ],
   templateUrl: './main-content.component.html',
   styleUrl: './main-content.component.scss'
