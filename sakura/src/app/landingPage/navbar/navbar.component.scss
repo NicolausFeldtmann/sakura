@@ -13,12 +13,17 @@ nav {
         justify-content: center;
         align-items: center;
         a{
+            font-size: 24px;
+            text-decoration: none;
+            color: white;
+            margin: 0px 12px 0px 12px;
             &:hover{
                 text-decoration: underline;
             }
         }
         .phone{
             display: flex;
+            
             align-items: center;
             white-space: nowrap;
             background-color: rgb(175, 0, 0);
@@ -36,11 +41,4 @@ nav {
             }
         }
     }
-}
-
-a {
-    font-size: 24px;
-    text-decoration: none;
-    color: white;
-    margin: 0px 12px 0px 12px;
 }
